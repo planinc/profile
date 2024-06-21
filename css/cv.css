@@ -1,0 +1,124 @@
+body{
+    font: 100% Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.container{
+    min-width: 900px;
+    position: relative;
+    overflow: auto;
+}
+
+#banner{
+    background-image: url(https://logotaglines.com/wp-content/uploads/2022/06/Western-Digital-Logo-Tagline-Slogan-Founder-480x480.jpg);
+    background-color: gray;
+    padding: 75px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height:14px;
+}
+
+#menulist {
+    padding: 0px;
+    position: relative;
+    overflow: auto;
+}
+
+#menulist li{
+    width:165px;
+    float: left;
+    background-color: gray;
+    list-style-type: none;
+    margin: 4px;
+    padding:2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#menulist li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menulist li:hover {
+    background-color: black;
+}
+
+
+h1, h2 {
+    color: rgb(3, 150, 255);
+}
+
+h3 {
+    color: rgb(238, 3, 255);
+}
+
+#servicelist{
+   padding: 0;
+   position: relative;
+   overflow: auto;
+}
+
+.serviceitem{
+    width: 30%;
+    float: left;
+    background-color: rgb(238, 3, 255);
+    list-style-type: none;
+    margin: 4px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    height: 250px;
+}
+
+#resumelist{
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.resumeitem {
+    width: 30%;
+    float: left;
+    /* background-color: rgb(168, 160, 160); */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 4px;
+}
+
+.section-heading{
+    margin: 0 auto;
+    width: 350px;
+    /* outline: dashed 1px black; */
+}
+
+.section-heading h2{
+    text-align: center;
+}
+
+#backtotop{
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right:30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(32, 155, 255);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+#backtotop:hover{
+    background-color:gray;
+}
+
